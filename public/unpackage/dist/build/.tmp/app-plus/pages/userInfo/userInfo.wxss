@@ -1,0 +1,21 @@
+
+.avatar{
+	width: 100%;
+	background-color: #007AFF;
+	height: 345rpx;
+	line-height: 345rpx;
+	text-align: center;
+}
+.bg{
+	font-size: 245rpx;
+}
+.btn-logout{
+	width: 70%;
+	height: 64rpx;
+	line-height: 64rpx;
+	border-radius: 32rpx;
+	background-color: #ec2b2e;
+	color: #fff;
+	margin: 0 auto;
+}
+

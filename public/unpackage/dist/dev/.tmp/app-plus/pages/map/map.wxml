@@ -1,0 +1,1 @@
+<view><map style="width:100%;height:100%;" controls="{{map.controls}}" scale="{{map.scale}}" latitude="{{map.latitude}}" longitude="{{map.longitude}}" markers="{{map.markers}}" circles="{{map.circles}}" show-location="true" data-event-opts="{{[['markertap',[['markertop']]]]}}" bindmarkertap="__e"></map></view>

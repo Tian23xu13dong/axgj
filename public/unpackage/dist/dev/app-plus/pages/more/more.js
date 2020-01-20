@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"loadMore { font-size: ",[0,30],"; color: #555; margin-bottom: ",[0,20],"; }\n",],undefined,{path:"./pages/more/more.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/more/more.wxml') } }));

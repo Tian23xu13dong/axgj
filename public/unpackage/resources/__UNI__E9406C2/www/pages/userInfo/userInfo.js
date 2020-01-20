@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"avatar{ width: 100%; background-color: #007AFF; height: ",[0,345],"; line-height: ",[0,345],"; text-align: center; }\n.",[1],"bg{ font-size: ",[0,245],"; }\n",],undefined,{path:"./pages/userInfo/userInfo.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/userInfo/userInfo.wxml') } }));

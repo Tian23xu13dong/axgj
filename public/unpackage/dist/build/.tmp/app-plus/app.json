@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/map/map",
+    "pages/more/more",
+    "pages/userInfo/userInfo",
+    "pages/about/about",
+    "pages/login/login",
+    "pages/userInfo/member",
+    "pages/setting/setting",
+    "pages/setting/contact",
+    "pages/setting/man_route",
+    "pages/setting/man_face",
+    "pages/setting/apps",
+    "pages/setting/alarm_voice",
+    "pages/setting/account",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#0081ff",
+    "navigationBarTitleText": "安行管家",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#9a9a9a",
+    "selectedColor": "#000000",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/map/map",
+        "iconPath": "static/icon/chux1.png",
+        "selectedIconPath": "static/icon/chux.png",
+        "text": "安行"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "iconPath": "static/icon/more1.png",
+        "selectedIconPath": "static/icon/more.png",
+        "text": "更多"
+      },
+      {
+        "pagePath": "pages/userInfo/userInfo",
+        "iconPath": "static/icon/user1.png",
+        "selectedIconPath": "static/icon/user.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "安行管家",
+  "compilerVersion": "2.5.1",
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}

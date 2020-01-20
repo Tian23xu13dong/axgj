@@ -1,0 +1,1 @@
+<view><cu-custom vue-id="1" bgColor="bg-gradual-blue" isBack="{{true}}" bind:__l="__l" vue-slots="{{['backText','content']}}"><view slot="backText">返回</view><view slot="content">编辑资料</view></cu-custom><form><input type="text" value=""/><button form-type="submit">Submit</button><button form-type="reset">Reset</button></form></view>

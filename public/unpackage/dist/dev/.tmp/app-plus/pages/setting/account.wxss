@@ -1,0 +1,9 @@
+
+page{
+	width: 100vw;
+	height: 100vh;
+}
+.cu-form-group .title {
+	min-width: calc(4em + 15px);
+}
+

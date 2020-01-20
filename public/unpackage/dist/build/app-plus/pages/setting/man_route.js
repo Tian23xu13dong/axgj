@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"page { height: 100Vh; width: 100vw; }\n",],undefined,{path:"./pages/setting/man_route.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/setting/man_route.wxml') } }));
